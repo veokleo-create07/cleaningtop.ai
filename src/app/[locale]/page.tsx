@@ -1,0 +1,4 @@
+import Home from '@/components/Home';import {notFound} from 'next/navigation';import type {Metadata} from 'next';
+export function generateStaticParams(){return [{locale:'de'},{locale:'en'}]}
+export async function generateMetadata({params}:{params:Promise<{locale:string}>}):Promise<Metadata>{const {locale}=await params;return {title:locale==='en'?'TopClean Building Services | Lübeck':'TopClean Gebäudeservice | Lübeck',description:locale==='en'?'Cleaning for offices, practices and managed properties in Lübeck.':'Reinigung für Büros, Praxen und betreute Immobilien in Lübeck.',alternates:{languages:{de:'/de',en:'/en'}}}}
+export default async function Page({params}:{params:Promise<{locale:string}>}){const {locale}=await params;if(locale!=='de'&&locale!=='en')notFound();return <Home locale={locale}/>}
