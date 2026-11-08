@@ -9,3 +9,5 @@
 - Supply legal operator identity, registration and tax details as applicable, and approved Impressum and Datenschutz copy. Current legal pages visibly say they are incomplete.
 - Approve an inquiry delivery provider, set INQUIRY_WEBHOOK_URL and INQUIRY_WEBHOOK_SECRET, confirm lawful retention, and replace the in-memory rate limiter with a durable store for multi-instance production. Without credentials, the site visibly runs in demo mode and no inquiry is sent.
 - Confirm deployment URL and canonical/hreflang metadata. Search indexing is disabled until legal and factual review.
+
+- Confirm actual business opening hours. The English-only top bar currently uses the explicit fallback “Hours · Please call”; hours found online for similarly named businesses do not match this business.

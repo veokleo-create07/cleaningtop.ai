@@ -1,6 +1,6 @@
 # TopClean Gebäudeservice
 
-German-first Next.js website with `/de` and `/en`, interactive service and property selectors, process and example gallery, quote builder, translated articles, and a validated inquiry API.
+English-only Next.js website at `/en`, with interactive service and property selectors, process and example gallery, quote builder, articles, and a validated inquiry API. The root and previous `/de` routes redirect to their English equivalents.
 
 ## Run
 
@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000/de. Run `npm run lint`, `npm run typecheck`, and `npm run build` for checks.
+Open http://localhost:3000/en. Run `npm run lint`, `npm run typecheck`, and `npm run build` for checks.
 
 ## Inquiry handling
 
