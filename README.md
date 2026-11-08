@@ -17,4 +17,4 @@ Without `INQUIRY_WEBHOOK_URL` and `INQUIRY_WEBHOOK_SECRET`, submissions are vali
 
 ## Images and publication
 
-CSS illustrative scenes preserve the specified image aspect ratios without implying actual projects or staff. Replace them with approved, optimized local photos and `next/image` components before publication. `public/images/topclean-reference.png` is the supplied logo reference, pending approval and a usable transparent variant. See [CONTENT_TODO.md](CONTENT_TODO.md) for all factual and legal gates. Indexing is disabled until these are resolved.
+CSS illustrative scenes preserve the specified image aspect ratios without implying actual projects or staff. Replace them with approved, optimized local photos and `next/image` components before publication. `public/images/topclean-logo-transparent.png` is the transparent logo cutout used in header and footer; the original supplied reference remains in `public/images/topclean-reference.png`. See [CONTENT_TODO.md](CONTENT_TODO.md) for all factual and legal gates. Indexing is disabled until these are resolved.
