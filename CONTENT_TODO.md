@@ -3,7 +3,7 @@
 - Confirm phone +49 176 23483923, info@topcleannord.de, Schwartauer Allee 99, 23554 Lübeck, and the canonical domain topcleannord.de.
 - Confirm the service area beyond Lübeck and final service catalog, especially specialist/deep cleaning, stairwells, and practice cleaning scope.
 - Approve all service approach and FAQ wording.
-- Supply approved commercial interior, cleaning, property, and actual project photographs. Current visuals are labeled CSS illustrations; no images depict actual TopClean work.
+- Supply approved commercial interior, cleaning, property, and actual project photographs. The hero now uses the user-supplied cleaner photo; confirm usage rights and whether the pictured person and branded uniform represent TopClean. Other visuals remain labeled CSS illustrations.
 - The user supplied topcleanlogo.png for the brand. The website uses a transparent-background cutout generated from it. Confirm that this rendition and its small-screen appearance are approved before publication; retain the original reference in public/images/topclean-reference.png.
 - Supply actual client reviews with exact authorized text/name before replacing the trust explainer.
 - Supply legal operator identity, registration and tax details as applicable, and approved Impressum and Datenschutz copy. Current legal pages visibly say they are incomplete.
