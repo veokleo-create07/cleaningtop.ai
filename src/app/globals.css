@@ -17,4 +17,4 @@
 @media(max-width:767px){.hero-word{top:34%;font-size:20vw}}
 
 /* Foreground cutout lets the wordmark sit behind the cleaner. */
-.hero-word{top:27%;color:rgba(233,244,245,.82);font-size:clamp(110px,19vw,350px);z-index:1}.hero-cutout{position:absolute;inset:0;z-index:2;pointer-events:none}.hero-cutout-photo{object-fit:cover;object-position:56% 43%}.hero-content{z-index:3}.hero-strip{z-index:3}@media(max-width:767px){.hero-word{top:31%;font-size:20vw;color:rgba(233,244,245,.72)}.hero-cutout-photo{object-position:57% 36%}}
+.hero-word{top:27%;color:rgba(233,244,245,.82);font-size:clamp(110px,19vw,350px);z-index:1}.hero-cutout{position:absolute;inset:0;z-index:2;pointer-events:none}.hero-cutout-photo{object-fit:cover;object-position:56% 43%}.hero-content{z-index:3}.hero-strip{z-index:3}@media(max-width:767px){.hero-word{top:31%;font-size:19vw;color:rgba(233,244,245,.72)}.hero-cutout-photo{object-position:57% 36%}}
