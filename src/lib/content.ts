@@ -7,21 +7,12 @@ export const services=[
  {id:'commercial',title:{de:'Gewerbe- & Unterhaltsreinigung',en:'Commercial & maintenance cleaning'},description:{de:'Regelmäßige Reinigung professionell genutzter Immobilien nach vereinbartem Umfang.',en:'Regular cleaning of professionally used properties to an agreed scope.'}},
  {id:'special',title:{de:'Grund- & Sonderreinigung',en:'Deep & specialist cleaning'},description:{de:'Intensivere Reinigungsaufgaben besprechen wir passend zu Objekt und Bedarf.',en:'We discuss more intensive cleaning tasks according to the property and its needs.'}}
 ];
-export const steps=[
- {title:{de:'Anfrage senden',en:'Send an inquiry'},body:{de:'Teilen Sie uns Objekt, Standort und gewünschten Umfang mit.',en:'Tell us about the property, location and scope you need.'},mock:{de:'Kontaktdaten · Objekt · Standort',en:'Contact details · property · location'}},
- {title:{de:'Bedarf abstimmen',en:'Discuss requirements'},body:{de:'Wir klären Flächen, Häufigkeit und besondere Anforderungen.',en:'We discuss areas, frequency and particular requirements.'},mock:{de:'Flächen · Sanitärbereiche · Küchen · Rhythmus',en:'Areas · washrooms · kitchens · frequency'}},
- {title:{de:'Angebot erhalten',en:'Receive a quote'},body:{de:'Sie erhalten ein auf den besprochenen Umfang bezogenes Angebot.',en:'You receive a quote based on the agreed scope.'},mock:{de:'Leistungsumfang · Intervalle · Abstimmung',en:'Scope · intervals · coordination'}},
- {title:{de:'Reinigung organisieren',en:'Arrange cleaning'},body:{de:'Nach Beauftragung werden Einsatz und Abstimmung geplant.',en:'Once commissioned, the work and coordination are planned.'},mock:{de:'Termin · Zugang · Ansprechpartner',en:'Timing · access · contact person'}}
-];
 export const projects=[
  {title:{de:'Büroflächen',en:'Office spaces'},body:{de:'Beispiel für die Abstimmung von Arbeitsplätzen, Besprechungsräumen und Gemeinschaftsflächen.',en:'Illustration of coordinating workspaces, meeting rooms and shared areas.'}},
  {title:{de:'Ferienwohnung',en:'Holiday apartment'},body:{de:'Beispiel für einen geplanten Gästewechsel mit Küche, Bad und Wohnbereichen.',en:'Illustration of a planned changeover covering kitchen, bath and living areas.'}},
  {title:{de:'Treppenhaus',en:'Stairwell'},body:{de:'Beispiel für regelmäßig genutzte Gemeinschaftsbereiche einer Immobilie.',en:'Illustration of regularly used shared areas in a property.'}},
  {title:{de:'Praxisbereiche',en:'Practice spaces'},body:{de:'Beispiel für eine abgestimmte Reinigung unterschiedlicher Praxisräume.',en:'Illustration of coordinated cleaning across different practice rooms.'}}
 ];
-export type CustomerReview={quote:string;name:string;service?:string};
-// Add only verbatim customer reviews approved for publication by the business owner.
-export const reviews:CustomerReview[]=[];
 export const faqs=[
  [{de:'Welche Objekte reinigt TopClean?',en:'Which properties does TopClean clean?'},{de:'Wir bearbeiten Anfragen für Büros, Praxisräume, Ferienunterkünfte und weitere gewerblich genutzte Immobilien. Ob Ihr Objekt passt, klären wir gern direkt.',en:'We consider inquiries for offices, practice spaces, holiday accommodation and other commercial properties. Contact us to discuss your property.'}],
  [{de:'Bietet TopClean regelmäßige Reinigung an?',en:'Does TopClean offer regular cleaning?'},{de:'Der gewünschte Reinigungsrhythmus wird individuell abgestimmt. Teilen Sie uns einfach Ihre Anforderungen mit.',en:'Cleaning frequency is agreed individually. Tell us what you need.'}],

@@ -6,7 +6,7 @@
 - Supply approved commercial interior, cleaning, property, and actual project photographs. The hero now uses the user-supplied cleaner photo; confirm usage rights and whether the pictured person and branded uniform represent TopClean. The layered foreground cutout is generated from that photo and should be visually approved. Other visuals remain labeled CSS illustrations.
 - The user supplied topcleanlogo.png for the brand. The website uses a transparent-background cutout generated from it. Confirm that this rendition and its small-screen appearance are approved before publication; retain the original reference in public/images/topclean-reference.png.
 - Confirm the provisional team size (around 25) and property count (200+) before these are presented without provisional markers.
-- Supply actual client reviews with exact authorized text, name, and optional service type before replacing the Customer Reviews editorial fallback.
+- Supply actual client reviews with exact authorized text, name, and optional service type before adding a customer reviews section.
 - Supply approved, genuine paired before/after project photos before enabling a before/after gallery; the current Our Work carousel is explicitly illustrative.
 - Supply legal operator identity, registration and tax details as applicable, and approved Impressum and Datenschutz copy. Current legal pages visibly say they are incomplete.
 - Approve an inquiry delivery provider, set INQUIRY_WEBHOOK_URL and INQUIRY_WEBHOOK_SECRET, confirm lawful retention, and replace the in-memory rate limiter with a durable store for multi-instance production. Without credentials, the site visibly runs in demo mode and no inquiry is sent.
