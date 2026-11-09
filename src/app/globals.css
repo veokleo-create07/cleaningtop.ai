@@ -169,18 +169,14 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 }
 
 /* Our Work carousel composition aligned with the reference editorial layout */
-.projects-heading{display:grid;grid-template-columns:1fr 1fr;align-items:end;gap:5%;margin:0 0 48px}
-.projects-heading>div>span{display:block;margin-bottom:18px;color:var(--accent-soft);font-size:13px;font-weight:var(--weight-medium)}
+.projects-heading{display:block;margin:0 0 48px}
 .projects-heading h2{margin:0;font-size:var(--type-section);font-weight:var(--weight-regular);letter-spacing:var(--tracking-editorial);line-height:1.1}
-.projects-heading>p{max-width:380px;margin:0 0 4px;color:#d3e0e0;font-size:var(--type-body);line-height:var(--leading-body)}
 .project-copy h3{margin:0 0 16px}
 .project-info{grid-template-columns:1fr 1fr;gap:0 12px;margin:22px 0 30px}
 .project-info div{min-width:0;padding:12px 0 16px}
 .project-info strong{font-size:15px;font-weight:var(--weight-medium)}
 .project-photo{isolation:isolate}
-.project-property-tag{position:absolute;z-index:2;top:16px;left:16px;max-width:calc(100% - 32px);overflow:hidden;padding:9px 12px;border-radius:4px;background:var(--page);color:var(--ink);font-size:13px;line-height:1.3;text-overflow:ellipsis;white-space:nowrap}
 .project-image-footer{position:absolute;z-index:2;right:18px;bottom:16px;left:18px;display:flex;align-items:center;gap:18px}
-.project-counter{flex:none;color:#fff;font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
 .project-image-progress{position:relative;inset:auto;flex:1;width:auto;height:2px;margin:0;background:rgba(255,255,255,.35)}
 .project-image-progress span{background:var(--accent-soft)}
 .carousel-controls{gap:10px}
@@ -191,12 +187,9 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 .next-project-progress{position:absolute;right:0;bottom:0;left:0;height:2px;background:rgba(255,255,255,.08)}
 .next-project-progress>span{display:block;height:100%;background:var(--accent-soft);transition:width .35s ease}
 @media(max-width:767px){
-  .projects-heading{grid-template-columns:1fr;gap:18px;margin-bottom:30px}
-  .projects-heading>div>span{margin-bottom:12px}
-  .projects-heading>p{max-width:520px}
+  .projects-heading{margin-bottom:30px}
   .project-copy h3{margin-bottom:14px}
   .project-image-footer{right:12px;bottom:12px;left:12px;gap:12px}
-  .project-property-tag{top:12px;left:12px}
   .carousel-controls .carousel-previous{width:52px!important;height:64px!important;min-width:52px;min-height:64px}
   .carousel-controls .next-project-preview{min-height:64px;padding:7px 9px}
   .next-project-thumb{width:58px;height:46px}
