@@ -240,9 +240,10 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
   .featured-visual{display:none}
   .service-item button{min-height:64px;padding:12px 0;grid-template-columns:minmax(0,1fr) 24px}
   .service-item button strong{font-size:19px;line-height:1.25}
-  .accordion-body{padding:0 0 22px}
+  .service-item .accordion-body{display:none}
+  .mobile-service-detail{display:block;padding:22px 0 0}
   .mobile-service-photo{display:block;aspect-ratio:1.2;min-height:0;border-radius:8px;margin:0 0 16px}
-  .accordion-body p{margin-bottom:14px}
+  .mobile-service-detail p{margin:0 0 14px}
 
   .projects-heading{margin-bottom:24px}
   .projects-grid{display:flex;flex-direction:column;gap:22px}
@@ -282,8 +283,8 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
   .next-project-thumb{width:48px;height:42px}
   .next-project-label strong{font-size:12px}
 }
-.mobile-service-photo{display:none}
-@media(max-width:767px){.mobile-service-photo{display:block}}
+.mobile-service-photo,.mobile-service-detail{display:none}
+@media(max-width:767px){.mobile-service-photo,.mobile-service-detail{display:block}}
 .mobile-call{background:transparent;border-color:#142D35}
 .service-inquiry-link{display:inline-flex;align-items:center;gap:5px}
 .service-inquiry-arrow{display:block;width:15px;height:15px;flex:none;transition:transform 180ms ease}
