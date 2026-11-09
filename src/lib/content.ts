@@ -8,10 +8,10 @@ export const services=[
  {id:'special',title:{de:'Grund- & Sonderreinigung',en:'Deep & specialist cleaning'},description:{de:'Intensivere Reinigungsaufgaben besprechen wir passend zu Objekt und Bedarf.',en:'We discuss more intensive cleaning tasks according to the property and its needs.'}}
 ];
 export const projects=[
- {title:{de:'Büroflächen',en:'Office spaces'},body:{de:'Beispiel für die Abstimmung von Arbeitsplätzen, Besprechungsräumen und Gemeinschaftsflächen.',en:'Illustration of coordinating workspaces, meeting rooms and shared areas.'}},
- {title:{de:'Ferienwohnung',en:'Holiday apartment'},body:{de:'Beispiel für einen geplanten Gästewechsel mit Küche, Bad und Wohnbereichen.',en:'Illustration of a planned changeover covering kitchen, bath and living areas.'}},
- {title:{de:'Treppenhaus',en:'Stairwell'},body:{de:'Beispiel für regelmäßig genutzte Gemeinschaftsbereiche einer Immobilie.',en:'Illustration of regularly used shared areas in a property.'}},
- {title:{de:'Praxisbereiche',en:'Practice spaces'},body:{de:'Beispiel für eine abgestimmte Reinigung unterschiedlicher Praxisräume.',en:'Illustration of coordinated cleaning across different practice rooms.'}}
+ {title:{de:'Gewerbliche Bodenflächen',en:'Commercial floor areas'},body:{de:'Illustrative Einblicke in gepflegte Bodenflächen gemeinschaftlich genutzter Gebäude.',en:'Illustrative views of maintained floor areas in shared commercial properties.'}},
+ {title:{de:'Ferienwohnung',en:'Holiday apartment'},body:{de:'Illustratives Beispiel eines für ankommende Gäste vorbereiteten Schlafbereichs.',en:'Illustrative example of a bedroom prepared for arriving guests.'}},
+ {title:{de:'Innenliegendes Treppenhaus',en:'Indoor stairwell'},body:{de:'Illustratives Beispiel für gereinigte Treppenstufen und Gemeinschaftsflächen.',en:'Illustrative example of cleaned stair treads and shared areas.'}},
+ {title:{de:'Außentreppe',en:'Exterior stairs'},body:{de:'Illustratives Beispiel für gepflegte Außentreppen und Zugangsbereiche.',en:'Illustrative example of maintained exterior stairs and access areas.'}}
 ];
 export const faqs=[
  [{de:'Welche Objekte reinigt TopClean?',en:'Which properties does TopClean clean?'},{de:'Wir bearbeiten Anfragen für Büros, Praxisräume, Ferienunterkünfte und weitere gewerblich genutzte Immobilien. Ob Ihr Objekt passt, klären wir gern direkt.',en:'We consider inquiries for offices, practice spaces, holiday accommodation and other commercial properties. Contact us to discuss your property.'}],

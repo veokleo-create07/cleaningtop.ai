@@ -34,3 +34,5 @@
 @media(max-width:767px){.about-photo{min-height:0;aspect-ratio:1.05}}
 
 .service-photo{position:relative;overflow:hidden}.service-photo img{object-fit:cover;animation:service-photo-reveal .45s ease both}.service-photo .scene-window,.service-photo .scene-floor,.service-photo .scene-furniture,.service-photo .scene-label{display:none}@keyframes service-photo-reveal{from{opacity:.55;transform:scale(1.015)}to{opacity:1;transform:scale(1)}}@media(prefers-reduced-motion:reduce){.service-photo img{animation:none}}
+
+.project-photo{position:relative;overflow:hidden}.project-photo img{object-fit:cover}
