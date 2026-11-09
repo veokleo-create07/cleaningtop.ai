@@ -49,3 +49,11 @@
 .carousel-controls{align-items:center}.carousel-previous,.carousel-next{width:48px!important;height:48px!important;min-width:48px;min-height:48px;flex:none;display:grid;place-items:center;padding:0;font-size:22px}.next-project-preview{width:auto!important;height:auto!important;min-width:0;min-height:68px;flex:1;display:flex;align-items:center;gap:12px;padding:8px 12px;background:rgba(255,255,255,.08)!important;border:1px solid rgba(255,255,255,.12)!important;border-radius:4px;text-align:left;color:#fff;transition:background .2s ease,border-color .2s ease}.next-project-preview:hover{background:rgba(255,255,255,.13)!important;border-color:rgba(255,255,255,.3)!important}.next-project-thumb{position:relative;display:block;flex:none;width:68px;height:50px;overflow:hidden;border-radius:3px}.next-project-thumb img{object-fit:cover}.next-project-label{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px}.next-project-label small{font-size:11px;color:#c3d0d0}.next-project-label strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:15px;font-weight:500;letter-spacing:-.02em}
 @media(max-width:767px){.carousel-controls{gap:10px}.carousel-previous,.carousel-next{width:48px!important;height:48px!important;min-width:48px;min-height:48px}.next-project-preview{min-height:64px;padding:7px 9px}.next-project-thumb{width:58px;height:46px}.next-project-label strong{font-size:14px}}
 @media(prefers-reduced-motion:reduce){.next-project-preview{transition:none}}
+
+/* Match the Our Work carousel controls to the reference layout. */
+.next-project-preview{position:relative;min-width:0}
+.next-project-arrow{flex:none;display:grid;place-items:center;width:24px;height:24px;font-size:22px;line-height:1}
+.project-image{position:relative}
+.project-image-progress{position:absolute;z-index:2;right:18px;bottom:16px;left:18px;width:auto;height:2px;margin:0;background:rgba(255,255,255,.3)}
+.project-image-progress span{display:block;height:100%;background:var(--accent,#8fd2d0);transition:width .35s ease}
+@media(prefers-reduced-motion:reduce){.project-image-progress span{transition:none}}
