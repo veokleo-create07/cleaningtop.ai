@@ -212,3 +212,75 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 }
 .utility-mobile-region{display:none}
 @media(max-width:767px){.utility-mobile-region{display:inline}}
+
+/* Mobile flow: keep TopClean's own visual system while following the reference's
+   simpler image-first, single-column reading order. */
+@media(max-width:767px){
+  .section{margin-top:54px;margin-bottom:54px;scroll-margin-top:76px}
+  .container{width:calc(100% - 36px)}
+  .frame{margin-inline:8px;border-radius:16px}
+  .white-frame,.dark-frame,.contact{padding-block:48px}
+  .section-heading{margin-bottom:26px}
+  .section-heading p{margin-top:14px}
+
+  .hero{margin-inline:8px;border-radius:16px}
+  .hero-content{width:calc(100% - 36px)}
+
+  .about-intro{margin-bottom:26px}
+  .about-intro .statement{max-width:34ch}
+  .about-grid{gap:22px}
+  .about-photo{aspect-ratio:.96;border-radius:10px}
+  .about-copy .lead{margin-bottom:0}
+  .about-copy>.button{margin:16px 0 28px}
+  .about .value-row{grid-template-columns:1fr;gap:6px;padding:18px 0}
+  .about .value-row>div{gap:4px}
+
+  .service-grid{display:flex;flex-direction:column;gap:0}
+  .service-list{order:1}
+  .featured-visual{display:none}
+  .service-item button{min-height:64px;padding:12px 0;grid-template-columns:minmax(0,1fr) 24px}
+  .service-item button strong{font-size:19px;line-height:1.25}
+  .accordion-body{padding:0 0 22px}
+  .mobile-service-photo{display:block;aspect-ratio:1.2;min-height:0;border-radius:8px;margin:0 0 16px}
+  .accordion-body p{margin-bottom:14px}
+
+  .projects-heading{margin-bottom:24px}
+  .projects-grid{display:flex;flex-direction:column;gap:22px}
+  .project-image .scene{aspect-ratio:1.22;min-height:0;border-radius:10px}
+  .project-copy h3{margin-bottom:12px}
+  .project-info{grid-template-columns:1fr;gap:0;margin:16px 0 24px}
+  .project-info div{padding:13px 0;border-top:1px solid var(--light-line)}
+  .project-info strong{margin-top:5px}
+  .carousel-controls{width:100%;gap:10px;margin-top:4px}
+  .carousel-controls .carousel-previous{width:58px!important;height:62px!important;min-width:58px;min-height:62px;border-radius:8px}
+  .carousel-controls .next-project-preview{min-width:0;min-height:62px;padding:7px 9px;gap:9px}
+  .next-project-thumb{width:54px;height:44px}
+  .next-project-label strong{font-size:13px}
+
+  .faq-grid{gap:28px}
+  .faq-grid>div:first-child p{margin-bottom:14px}
+  .faq-grid .button{margin-top:4px}
+  .faq-item button{min-height:64px;gap:12px}
+  .contact-grid{gap:24px}
+  .contact-copy h2{margin-bottom:10px}
+  .contact-copy>p{margin-bottom:0}
+  .contact-form{padding:20px;border-radius:12px}
+  .form-row{grid-template-columns:1fr;gap:0}
+  .contact-form label{margin-bottom:14px}
+
+  .footer{padding-top:44px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px}
+  .footer-grid>div:first-child{grid-column:1/-1}
+  .brand-footer{width:150px;height:78px}
+  .footer-grid p{max-width:32ch;margin-top:12px}
+  .footer-bottom{margin-top:36px;padding:18px 0 88px}
+}
+@media(max-width:390px){
+  .container{width:calc(100% - 32px)}
+  .hero-content{width:calc(100% - 32px)}
+  .carousel-controls .carousel-previous{width:52px!important;min-width:52px}
+  .next-project-thumb{width:48px;height:42px}
+  .next-project-label strong{font-size:12px}
+}
+.mobile-service-photo{display:none}
+@media(max-width:767px){.mobile-service-photo{display:block}}
