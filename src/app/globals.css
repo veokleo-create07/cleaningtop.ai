@@ -285,3 +285,7 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 .mobile-service-photo{display:none}
 @media(max-width:767px){.mobile-service-photo{display:block}}
 .mobile-call{background:transparent;border-color:#142D35}
+.service-inquiry-link{display:inline-flex;align-items:center;gap:5px}
+.service-inquiry-arrow{display:block;width:15px;height:15px;flex:none;transition:transform 180ms ease}
+.service-inquiry-link:hover .service-inquiry-arrow{transform:translate(1px,-1px)}
+@media(prefers-reduced-motion:reduce){.service-inquiry-arrow{transition:none}}
