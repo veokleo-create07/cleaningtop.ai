@@ -4,3 +4,5 @@ node_modules/
 *.tsbuildinfo
 AGENTS.md
 .DS_Store
+.vercel
+.env*
