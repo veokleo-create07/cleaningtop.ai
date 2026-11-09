@@ -54,9 +54,6 @@
 .next-project-preview{position:relative;min-width:0}
 .next-project-arrow{flex:none;display:grid;place-items:center;width:24px;height:24px;font-size:22px;line-height:1}
 .project-image{position:relative}
-.project-image-progress{position:absolute;z-index:2;right:18px;bottom:16px;left:18px;width:auto;height:2px;margin:0;background:rgba(255,255,255,.3)}
-.project-image-progress span{display:block;height:100%;background:var(--accent,#8fd2d0);transition:width .35s ease}
-@media(prefers-reduced-motion:reduce){.project-image-progress span{transition:none}}
 
 /* Use the supplied transparent TopClean logo with its complete wordmark visible. */
 .brand-header{width:132px;height:70px;overflow:visible;background:transparent}
@@ -176,9 +173,6 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 .project-info div{min-width:0;padding:12px 0 16px}
 .project-info strong{font-size:15px;font-weight:var(--weight-medium)}
 .project-photo{isolation:isolate}
-.project-image-footer{position:absolute;z-index:2;right:18px;bottom:16px;left:18px;display:flex;align-items:center;gap:18px}
-.project-image-progress{position:relative;inset:auto;flex:1;width:auto;height:2px;margin:0;background:rgba(255,255,255,.35)}
-.project-image-progress span{background:var(--accent-soft)}
 .carousel-controls{gap:10px}
 .carousel-controls .carousel-previous{flex:none;width:72px;height:72px;min-width:72px;min-height:72px;border-radius:10px}
 .carousel-controls .next-project-preview{min-height:72px;padding:8px 12px}
@@ -189,7 +183,6 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 @media(max-width:767px){
   .projects-heading{margin-bottom:30px}
   .project-copy h3{margin-bottom:14px}
-  .project-image-footer{right:12px;bottom:12px;left:12px;gap:12px}
   .carousel-controls .carousel-previous{width:52px!important;height:64px!important;min-width:52px;min-height:64px}
   .carousel-controls .next-project-preview{min-height:64px;padding:7px 9px}
   .next-project-thumb{width:58px;height:46px}
