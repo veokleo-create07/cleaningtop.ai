@@ -284,4 +284,4 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 }
 .mobile-service-photo{display:none}
 @media(max-width:767px){.mobile-service-photo{display:block}}
-.mobile-call{background:#fff;border-color:var(--line)}
+.mobile-call{background:transparent;border-color:#142D35}
