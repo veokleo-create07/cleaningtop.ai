@@ -117,7 +117,11 @@ small{font-size:var(--type-caption)}
 .quote-card label,.contact-form label{font-size:var(--type-control);font-weight:var(--weight-medium)}
 input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 .faq-item button{font-size:17px;font-weight:var(--weight-medium);line-height:1.35}
+.faq-item button{color:var(--ink);-webkit-tap-highlight-color:transparent}
+.faq-item button:focus,.faq-item button:active{color:var(--ink);background:transparent}
+.faq-item button:focus-visible{outline:2px solid var(--slate);outline-offset:3px}
 .faq-item button span{font-size:18px;font-weight:var(--weight-regular)}
+.faq-item p{color:var(--muted)}
 .contact-copy h2{font-size:var(--type-section);font-weight:var(--weight-regular);line-height:1.08}
 .contact-lines>*{font-size:14px;line-height:1.45}
 .contact-lines strong{font-weight:var(--weight-medium)}
