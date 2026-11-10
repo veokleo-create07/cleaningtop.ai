@@ -303,4 +303,5 @@ input,select,textarea{font-size:15px;font-weight:var(--weight-regular)}
 .footer-grid p{max-width:26ch;color:#cbd9d9}
 .footer-bottom{margin-top:0}
 .footer-word{left:50%;bottom:0;width:max-content;transform:translateX(-50%) scaleX(.82);transform-origin:center bottom;text-align:center;font-size:clamp(84px,22vw,360px);letter-spacing:-.06em;line-height:.9;z-index:0;pointer-events:none}
+.footer .brand-footer{transform:translate(-8px,-6px)}
 @media(max-width:767px){.footer-grid{grid-template-columns:1fr 1fr;gap:30px 20px;padding-bottom:28px}.footer-brand-column{grid-column:1/-1}.footer-bottom{margin-top:0;padding-bottom:88px}.footer-word{font-size:clamp(84px,22vw,150px)}}
